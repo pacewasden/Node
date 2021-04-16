@@ -19,16 +19,16 @@ yargs.command({
 })
 yargs.command({
     command: 'list',
-    describe: 'List of notes',
+    describe: 'List your notes',
     handler: function(){
-        console.log('Listing all notes.')
+        console.log('Listing out all notes.')
     }
 })
 yargs.command({
     command: 'read',
-    describe: 'Read notes',
+    describe: 'Read a note',
     handler: function(){
-        console.log('Reading the notes')
+        console.log('Reading a notes')
     }
 })
 console.log(yargs.argv)
